@@ -1,45 +1,22 @@
-Project Description
-This project focuses on predicting telecom customer churn using a Random Forest Classifier. It follows a full machine learning workflow including:
+# Telco Customer Churn Prediction
 
-Data preprocessing:
+This project uses a Random Forest classifier to predict customer churn using the Telco dataset.
 
-Loading and cleaning the dataset
+## Features
 
-Handling missing values and data type conversions
+- Data preprocessing
+- One-hot encoding
+- Model training and evaluation
+- Hyperparameter tuning with GridSearchCV
+- SHAP for model explainability
 
-Feature engineering:
+## Results
 
-One-hot encoding categorical features
+- Accuracy: XX%
+- ROC-AUC: XX%
 
-Creating new features (e.g., customer tenure in years)
+## Dependencies
 
-Model training and tuning:
-
-Splitting data into training and test sets
-
-Training a Random Forest model
-
-Hyperparameter tuning using GridSearchCV
-
-Model evaluation:
-
-Assessing performance with Accuracy and ROC-AUC
-
-Model interpretability:
-
-Explaining predictions using SHAP (SHapley Additive exPlanations)
-
-Analyzing feature importance for transparent decision-making
-
-This approach helps stakeholders understand not just if a customer is likely to churn, but also why — enabling actionable business insights.
-
-
-# Installation
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/mubanda123/customer-churn-prediction.git
-   cd customer-churn-prediction
-2. pip install -r requirements.txt
-3. jupyter notebook
-   Then open churn_prediction.ipynb.
+- pandas
+- scikit-learn
+- shap
